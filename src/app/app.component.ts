@@ -6,5 +6,10 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'bases';
+  public titulo = '01-Bases';
+  public numero: number = 10;
+
+  acumular(valor: number) {
+    this.numero+=valor;
+  }
 }
